@@ -1,0 +1,217 @@
+body {
+    margin: 0 auto;
+    font-family: 'Rambla', sans-serif;
+}
+
+/********Nav Bar Styles*********/
+.nav-bar {
+    background-color: #C07F03; /*Engineering yellow*/
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;  /*what does this do?*/
+    animation: fade-in .4s ease-in; /*what does this do?*/
+    top: 0;
+}
+
+.nav-list {
+    margin: 0 auto;
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.list-item {
+    float: left;
+    margin: 20px;
+    list-style: none; /*Get rid of bullets before list items*/
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.list-item a {
+    text-decoration: none;
+}
+
+.list-item a:hover {
+    color: #A21011;
+    font-size: 35px;
+}
+
+/**************End of Nav bar***********/
+
+/**********Footer Styles************/
+.footer {
+    background-color: #6AB4E1; /*McCoy blue*/
+    height: 100px;
+    width: 100%;
+    margin-top: 42px;
+}
+
+.footer-col {
+    height: 100px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+button {
+    height: 20px;
+    width: 100px;
+    border-radius: 3px;
+    margin-top: 38px;
+    /*margin-left: 30px;*/
+}
+
+input {
+    width: 100px;
+}
+
+.social-media {
+    margin-top: 27px;
+}
+
+.fa-facebook-square {
+    color: #4267B2;
+}
+
+.fa-twitter-square {
+    color: #0600FF;    
+}
+
+.copyright {
+    margin-top: 20px;
+}
+/**************End of Footer***********/
+
+/***********Index Styles****************/
+
+.captains {
+    width: 100%;
+}
+
+.hero {
+    background-image: url('../images/captains.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /*top: 92px;*/
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+ /*improve on this one...*/
+.herobox {
+    border-radius: 5px;
+    position: absolute;
+    left: 35%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.all-names {
+    width: 100%;
+    /*border: solid 3px #020005;*/
+    overflow: hidden;
+    position: absolute;
+    top: 700px;
+}
+
+/*make text in these boxes vertically centered, and bold in boxes)*/
+.captain-names {
+    height: 60px;
+    text-align: center;
+    float: left;
+    width: 14.2%;
+}
+
+.kirk {
+    background-color: #B59759; /*Kirk's yellow*/
+    width: 13.5%;
+}
+.picard {
+    background-color: #5E130D; /*Picard's red*/
+    width: 15%;
+}
+.sisko {
+    background-color: #8D89A0; /*Sisko's turtleneck gray*/
+    width: 14.5%;
+}
+.janeway {
+    background-color: #951115;  /*Janeway's red*/
+    width: 14.5%;
+}
+.archer {
+    background-color: #3A3A52; /*Archer's jacket blue*/
+    width: 14.7%;
+}
+.georgiou {
+    background-color: #2A243B; /*Georgiou's shirt blue*/
+    width: 14.6%;
+}
+.lorca {
+    background-color: #47565B; /*Lorca's jacket blue*/
+    width: 13.2%;
+}
+
+
+/***************Casts Styles*******************/
+.series-big {
+    width: 90%;
+    height: auto;
+    border: 3px black;
+}
+
+.series-big h1 {
+    clear: left;
+    width: 90%;
+    color: black;
+    font-family: 'Rambla';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.pic-vid {
+    width: 90%;
+    height: auto;
+    padding-left: 20px;
+}
+
+.castpic {
+    width: 45%;
+    /*height: 400px;*/
+}
+
+.themevid {
+    padding-bottom: 40px;
+}
+
+.text-audio {
+    width: 90;
+}
+
+.3col {
+    padding-left: 20px;
+}
+
+.col {
+    float: left;
+}
+.cast-text {
+    width: 21%;
+    padding: 22px;
+}
+
+.series-desc {
+    width: 33%;
+}
+
+.col-audio {
+    width: 33%;
+}
+
