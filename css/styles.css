@@ -168,7 +168,19 @@ h1 {
     /*Contains cast pic, video, and 3 columns under*/
     border: 5px solid black;
     height: 682px;
+    /*This is to put stars as the background image.*/
+    background-image: url('../images/stars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /*top: 92px;*/
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
 }
+
+
 
 .series-big {
 /*Contains JUST the cast pic & video*/
