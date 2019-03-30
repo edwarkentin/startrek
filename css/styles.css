@@ -162,10 +162,19 @@ h1 {
 
 
 /***************Casts Styles*******************/
+.series-large {
+    /*Contains cast pic, video, and 3 columns under*/
+    border: 5px solid black;
+    height: 682px;
+}
+
 .series-big {
-    width: 90%;
+/*Contains JUST the cast pic & video*/
+    width: 80%;
     height: auto;
-    border: 3px solid black;
+    margin: auto;
+
+    /*border: 3px solid black;*/
     /*position: absolute;*/
     /*left: 50%;*/
     /*transform: translateX(-50%);*/
@@ -173,22 +182,21 @@ h1 {
 
 .series-big h1 {
     clear: left;
-    width: 90%;
+    width: 80%;
     color: black;
     font-family: 'Rambla';
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .pic-vid {
     width: 90%;
     height: auto;
-    padding-left: 20px;
+    margin-left: 25px;
 }
 
 .castpic {
     width: 45%;
-    /*height: 400px;*/
 }
 
 .themevid {
@@ -199,7 +207,7 @@ h1 {
     width: 90;
 }
 
-.3col {
+.threecol {
     padding-left: 20px;
 }
 
@@ -209,14 +217,94 @@ h1 {
 .cast-text {
     width: 21%;
     padding: 22px;
+    height: 170px;
 }
 
 .series-desc {
     width: 33%;
+    height: 170px;
+    margin-top: 40px;
 }
 
 .col-audio {
     width: 33%;
+    height: 140px;
+}
+
+/*.ship {*/
+/*    float: left;*/
+/*    clear: left;*/
+/*    width: 80%;*/
+/*}*/
+
+.ship {
+  min-height: 250px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.tosship {
+    background-image: url("../images/tosship2.png");
+}
+
+.tngship {
+    margin: 300px;
+    background-image: url("../images/tngship.jpg");
+}
+
+.ds9ship {
+    margin: 600px;
+    background-image: url("../images/ds9ship.jpg");
+}
+
+.voyship {
+    margin: 900px;
+    background-image: url("../images/voyship.jpg");
+}
+
+.entship {
+    margin: 1200px;
+    background-image: url("../images/entship.jpg");
+}
+
+.discship {
+    margin: 1500px;
+    background-image: url("../images/discship.jpg");
+
+}
+
+/**********Locations Styles***********/
+.stars-background {
+    background-image: url("../images/stars.jpg");
+}
+
+.mapform-container {
+    width: 100%;
+    height: 420px;
+    margin-top: 10px;
+}
+
+.map-form {
+    float: left;
+}
+.map-form iframe {
+    float: left;
+    margin-left: 25px;
+    border: 5px solid blue;
+}
+
+.locations-title {
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.favorites {
+    margin-left: 282px;
+
 }
 
 /*.parallax1 {*/
