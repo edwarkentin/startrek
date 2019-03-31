@@ -72,11 +72,15 @@ input {
 }
 
 .fa-facebook-square {
-    color: #4267B2;
+    color: #C32228;
 }
 
 .fa-twitter-square {
-    color: #0600FF;    
+    color: #C32228;    
+}
+
+.fa-hand-spock {
+    color: #C32228;
 }
 
 .copyright {
@@ -176,11 +180,8 @@ h1 {
     position: relative;
     /*top: 92px;*/
     width: 100%;
-    height: 600px;
     margin: 0 auto;
 }
-
-
 
 .series-big {
 /*Contains JUST the cast pic & video*/
@@ -197,14 +198,14 @@ h1 {
 .series-big h1 {
     clear: left;
     width: 80%;
-    color: black;
+    color: #ffffff;
     font-family: 'Rambla';
     font-size: 30px;
     font-weight: bold;
 }
 
 .pic-vid {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-left: 25px;
 }
@@ -232,12 +233,14 @@ h1 {
     width: 21%;
     padding: 22px;
     height: 170px;
+    color: #ffffff;
 }
 
 .series-desc {
     width: 33%;
     height: 170px;
     margin-top: 40px;
+    color: #ffffff;
 }
 
 .col-audio {
