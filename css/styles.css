@@ -230,7 +230,7 @@ h1 {
     float: left;
 }
 .cast-text {
-    width: 21%;
+    width: 27%;
     padding: 22px;
     height: 170px;
     color: #ffffff;
@@ -244,7 +244,7 @@ h1 {
 }
 
 .col-audio {
-    width: 33%;
+    width: 23%;
     height: 140px;
 }
 
@@ -295,7 +295,12 @@ h1 {
 
 /**********Locations Styles***********/
 .stars-background {
-    background-image: url("../images/stars.jpg");
+    background-image: url('../images/stars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .mapform-container {
