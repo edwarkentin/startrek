@@ -8,19 +8,17 @@ body {
     background-color: #C07F03; /*Engineering yellow*/
     width: 100%;
     height: 100px;
-    position: relative;
-    display: flex;  /*what does this do?*/
-    animation: fade-in .4s ease-in; /*what does this do?*/
+    /* position: relative; */
+    position: fixed;
     top: 0;
+    z-index:1;
 }
-
 .nav-list {
     margin: 0 auto;
     float: right;
     margin-right: 80px;
     margin-top: 20px;
 }
-
 .list-item {
     float: left;
     margin: 20px;
@@ -28,16 +26,13 @@ body {
     padding-right: 10px;
     font-size: 25px;
 }
-
 .list-item a {
     text-decoration: none;
 }
-
 .list-item a:hover {
     color: #A21011;
-    font-size: 35px;
+    font-size: 30px;
 }
-
 /**************End of Nav bar***********/
 
 /**********Footer Styles************/
@@ -47,42 +42,33 @@ body {
     width: 100%;
     margin-top: 72px;
 }
-
 .footer-col {
-    height: 100px;
+    height: 72px;
     width: 33%;
     float: left;
     text-align: center;
 }
-
 button {
     height: 20px;
     width: 100px;
     border-radius: 3px;
     margin-top: 38px;
-    /*margin-left: 30px;*/
 }
-
 input {
     width: 100px;
 }
-
 .social-media {
     margin-top: 27px;
 }
-
 .fa-facebook-square {
     color: #C32228;
 }
-
 .fa-twitter-square {
     color: #C32228;    
 }
-
 .fa-hand-spock {
     color: #C32228;
 }
-
 .copyright {
     margin-top: 20px;
 }
@@ -106,7 +92,6 @@ input {
     margin: 0 auto;
 }
 
- /*improve on this one...*/
 .herobox {
     border-radius: 5px;
     position: absolute;
@@ -122,13 +107,11 @@ h1 {
 
 .all-names {
     width: 100%;
-    /*border: solid 3px #020005;*/
     overflow: hidden;
     position: absolute;
     top: 700px;
 }
 
-/*make text in these boxes vertically centered, and bold in boxes)*/
 .captain-names {
     height: 60px;
     text-align: center;
@@ -183,16 +166,14 @@ h1 {
     margin: 0 auto;
 }
 
+.pagetop {
+    margin-top: 100px;
+}
 .series-big {
 /*Contains JUST the cast pic & video*/
     width: 80%;
     height: auto;
     margin: auto;
-
-    /*border: 3px solid black;*/
-    /*position: absolute;*/
-    /*left: 50%;*/
-    /*transform: translateX(-50%);*/
 }
 
 .series-big h1 {
@@ -248,12 +229,6 @@ h1 {
     height: 140px;
 }
 
-/*.ship {*/
-/*    float: left;*/
-/*    clear: left;*/
-/*    width: 80%;*/
-/*}*/
-
 .ship {
   min-height: 250px; 
   background-attachment: fixed;
@@ -268,27 +243,27 @@ h1 {
 }
 
 .tngship {
-    margin: 300px;
+    /* margin: 300px; */
     background-image: url("../images/tngship.jpg");
 }
 
 .ds9ship {
-    margin: 600px;
+    /* margin: 600px; */
     background-image: url("../images/ds9ship.jpg");
 }
 
 .voyship {
-    margin: 900px;
+    /* margin: 900px; */
     background-image: url("../images/voyship.jpg");
 }
 
 .entship {
-    margin: 1200px;
+    /* margin: 1200px; */
     background-image: url("../images/entship.jpg");
 }
 
 .discship {
-    margin: 1500px;
+    /* margin: 1500px; */
     background-image: url("../images/discship.jpg");
 
 }
@@ -305,8 +280,8 @@ h1 {
 
 .mapform-container {
     width: 100%;
-    height: 420px;
-    margin-top: 10px;
+    height: 470px;
+    margin-top: 36px;
 }
 
 .map-form {
