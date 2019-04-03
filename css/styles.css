@@ -40,7 +40,7 @@ body {
     background-color: #6AB4E1; /*McCoy blue*/
     height: 100px;
     width: 100%;
-    margin-top: 72px;
+    /* margin-top: 72px; */
 }
 .footer-col {
     height: 72px;
@@ -107,9 +107,7 @@ h1 {
 
 .all-names {
     width: 100%;
-    overflow: hidden;
-    position: absolute;
-    top: 700px;
+    /* overflow: hidden; */
 }
 
 .captain-names {
@@ -118,6 +116,7 @@ h1 {
     float: left;
     width: 14.2%;
     padding-top: 20px;
+    overflow: hidden;
 }
 
 .kirk {
@@ -149,6 +148,30 @@ h1 {
     width: 13.2%;
 }
 
+/* .names-ship {
+    position: absolute;
+    top: 700;
+    display: block;
+    width: 100%;
+} */
+.sub-footer {
+    background-color: #000000;
+    position: static;
+    display: block;
+    top: 700;
+    /* z-index: 1; */
+}
+.ent-d-side {
+    height: 100px;
+    background: #000000;
+    position: relative;
+    top: 700;
+    animation: mymove 8s infinite;
+}
+@keyframes mymove {
+    from {left: -550px;}
+    to {left: 1500px;}
+}
 
 /***************Casts Styles*******************/
 .series-large {
