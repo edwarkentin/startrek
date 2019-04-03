@@ -148,19 +148,13 @@ h1 {
     width: 13.2%;
 }
 
-/* .names-ship {
-    position: absolute;
-    top: 700;
-    display: block;
-    width: 100%;
-} */
 .sub-footer {
     background-color: #000000;
     position: static;
     display: block;
     top: 700;
-    /* z-index: 1; */
 }
+
 .ent-d-side {
     height: 100px;
     background: #000000;
@@ -291,6 +285,7 @@ h1 {
 
 }
 
+
 /**********Locations Styles***********/
 .stars-background {
     background-image: url('../images/stars.jpg');
@@ -303,8 +298,8 @@ h1 {
 
 .mapform-container {
     width: 100%;
-    height: 470px;
-    margin-top: 36px;
+    height: 544px;
+    margin-top: 645px;
 }
 
 .map-form {
@@ -327,16 +322,4 @@ h1 {
 
 }
 
-/*.parallax1 {*/
-  /* The image used */
-/*  background-image: url("images/tosship.jpeg");*/
 
-  /* Set a specific height */
-/*  min-height: 700px; */
-
-  /* Create the parallax scrolling effect */
-/*  background-attachment: fixed;*/
-/*  background-position: center;*/
-/*  background-repeat: no-repeat;*/
-/*  background-size: cover;*/
-/*}*/
