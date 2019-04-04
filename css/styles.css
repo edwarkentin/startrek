@@ -164,7 +164,7 @@ h1 {
 }
 @keyframes mymove {
     from {left: -550px;}
-    to {left: 1500px;}
+    to {left: 1700px;}
 }
 
 /***************Casts Styles*******************/
@@ -299,7 +299,7 @@ h1 {
 .mapform-container {
     width: 100%;
     height: 544px;
-    margin-top: 217px;
+    margin-top: 79px;
 }
 
 .map-form {
@@ -308,7 +308,6 @@ h1 {
 .map-form iframe {
     float: left;
     margin-left: 25px;
-    border: 5px solid blue;
 }
 
 .locations-title {
