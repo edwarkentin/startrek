@@ -1,0 +1,329 @@
+body {
+    margin: 0 auto;
+    font-family: 'Rambla', sans-serif;
+}
+
+/********Nav Bar Styles*********/
+.nav-bar {
+    background-color: #C07F03; /*Engineering yellow*/
+    width: 100%;
+    height: 100px;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    z-index:1;
+}
+.nav-list {
+    margin: 0 auto;
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.list-item {
+    float: left;
+    margin: 20px;
+    list-style: none; /*Get rid of bullets before list items*/
+    padding-right: 10px;
+    font-size: 25px;
+}
+.list-item a {
+    text-decoration: none;
+}
+.list-item a:hover {
+    color: #A21011;
+    font-size: 30px;
+}
+/**************End of Nav bar***********/
+
+/**********Footer Styles************/
+.footer {
+    background-color: #6AB4E1; /*McCoy blue*/
+    height: 100px;
+    width: 100%;
+    /* margin-top: 72px; */
+}
+.footer-col {
+    height: 72px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+button {
+    height: 20px;
+    width: 100px;
+    border-radius: 3px;
+    margin-top: 38px;
+}
+input {
+    width: 100px;
+}
+.social-media {
+    margin-top: 27px;
+}
+.fa-facebook-square {
+    color: #C32228;
+}
+.fa-twitter-square {
+    color: #C32228;    
+}
+.fa-hand-spock {
+    color: #C32228;
+}
+.copyright {
+    margin-top: 20px;
+}
+/**************End of Footer***********/
+
+/***********Index Styles****************/
+
+.captains {
+    width: 100%;
+}
+
+.hero {
+    background-image: url('../images/captains.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /*top: 92px;*/
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.herobox {
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 350px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.all-names {
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.captain-names {
+    height: 60px;
+    text-align: center;
+    float: left;
+    width: 14.2%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.kirk {
+    background-color: #B59759; /*Kirk's yellow*/
+    width: 13.5%;
+}
+.picard {
+    background-color: #5E130D; /*Picard's red*/
+    width: 15%;
+}
+.sisko {
+    background-color: #8D89A0; /*Sisko's turtleneck gray*/
+    width: 14.5%;
+}
+.janeway {
+    background-color: #951115;  /*Janeway's red*/
+    width: 14.5%;
+}
+.archer {
+    background-color: #3A3A52; /*Archer's jacket blue*/
+    width: 14.7%;
+}
+.georgiou {
+    background-color: #2A243B; /*Georgiou's shirt blue*/
+    width: 14.6%;
+}
+.lorca {
+    background-color: #47565B; /*Lorca's jacket blue*/
+    width: 13.2%;
+}
+
+.sub-footer {
+    background-color: #000000;
+    position: static;
+    display: block;
+    top: 700;
+}
+
+.ent-d-side {
+    height: 100px;
+    background: #000000;
+    position: relative;
+    top: 700;
+    animation: mymove 8s infinite;
+}
+@keyframes mymove {
+    from {left: -550px;}
+    to {left: 1700px;}
+}
+
+/***************Casts Styles*******************/
+.series-large {
+    /*Contains cast pic, video, and 3 columns under*/
+    border: 5px solid black;
+    height: 682px;
+    /*This is to put stars as the background image.*/
+    background-image: url('../images/stars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /*top: 92px;*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pagetop {
+    margin-top: 100px;
+}
+.series-big {
+/*Contains JUST the cast pic & video*/
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.series-big h1 {
+    clear: left;
+    width: 80%;
+    color: #ffffff;
+    font-family: 'Rambla';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pic-vid {
+    width: 100%;
+    height: auto;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.castpic {
+    width: 45%;
+    height: 315px;
+    align-self: baseline;
+    margin-right: 20px;
+}
+
+.themevid {
+    padding-bottom: 40px;
+}
+
+.text-audio {
+    width: 90;
+}
+
+.threecol {
+    padding-left: 20px;
+}
+
+.col {
+    float: left;
+}
+.cast-text {
+    width: 27%;
+    padding: 22px;
+    height: 170px;
+    color: #ffffff;
+}
+
+.series-desc {
+    width: 33%;
+    height: 170px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.col-audio {
+    width: 23%;
+    height: 140px;
+}
+
+.ship {
+  min-height: 250px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.tosship {
+    background-image: url("../images/tosship2.png");
+}
+
+.tngship {
+    /* margin: 300px; */
+    background-image: url("../images/tngship.jpg");
+}
+
+.ds9ship {
+    /* margin: 600px; */
+    background-image: url("../images/ds9ship.jpg");
+}
+
+.voyship {
+    /* margin: 900px; */
+    background-image: url("../images/voyship.jpg");
+}
+
+.entship {
+    /* margin: 1200px; */
+    background-image: url("../images/entship.jpg");
+}
+
+.discship {
+    /* margin: 1500px; */
+    background-image: url("../images/discship.jpg");
+
+}
+
+
+/**********Locations Styles***********/
+.stars-background {
+    background-image: url('../images/stars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mapform-container {
+    width: 100%;
+    height: 544px;
+    margin-top: 79px;
+}
+
+.map-form {
+    float: left;
+}
+.map-form iframe {
+    float: left;
+    margin-left: 25px;
+}
+
+.locations-title {
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+.favorites {
+    margin-left: 16px;
+
+}
+
+
